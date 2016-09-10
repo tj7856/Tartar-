@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9642BC8D1B43C8A3003DC4EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642BC8C1B43C8A3003DC4EE /* main.m */; };
+		9642BC901B43C8A3003DC4EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642BC8F1B43C8A3003DC4EE /* AppDelegate.m */; };
+		9642BC931B43C8A3003DC4EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642BC921B43C8A3003DC4EE /* ViewController.m */; };
+		9642BC961B43C8A3003DC4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9642BC941B43C8A3003DC4EE /* Main.storyboard */; };
+		9642BC981B43C8A3003DC4EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9642BC971B43C8A3003DC4EE /* Images.xcassets */; };
+		9642BC9B1B43C8A3003DC4EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9642BC991B43C8A3003DC4EE /* LaunchScreen.xib */; };
+		9642BCA71B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642BCA61B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m */; };
+		968EDDB01BDE520C00CA74F1 /* UIColor+STColorInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EDDAF1BDE520C00CA74F1 /* UIColor+STColorInit.m */; };
+		969FCCA81B45049200D2913A /* TColorfulTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 969FCCA71B45049200D2913A /* TColorfulTabBar.m */; };
+		969FCCAB1B4504A500D2913A /* TColorfulTabBar+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 969FCCAA1B4504A500D2913A /* TColorfulTabBar+Configuration.m */; };
+		FB15461A1D82C3C70019C5A1 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545E91D82C3C70019C5A1 /* POPAnimatableProperty.mm */; };
+		FB15461B1D82C3C70019C5A1 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545EB1D82C3C70019C5A1 /* POPAnimation.mm */; };
+		FB15461C1D82C3C70019C5A1 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545ED1D82C3C70019C5A1 /* POPAnimationEvent.mm */; };
+		FB15461D1D82C3C70019C5A1 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545F01D82C3C70019C5A1 /* POPAnimationExtras.mm */; };
+		FB15461E1D82C3C70019C5A1 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545F41D82C3C70019C5A1 /* POPAnimationRuntime.mm */; };
+		FB15461F1D82C3C70019C5A1 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545F61D82C3C70019C5A1 /* POPAnimationTracer.mm */; };
+		FB1546201D82C3C70019C5A1 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545F91D82C3C70019C5A1 /* POPAnimator.mm */; };
+		FB1546211D82C3C70019C5A1 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545FC1D82C3C70019C5A1 /* POPBasicAnimation.mm */; };
+		FB1546221D82C3C70019C5A1 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1545FF1D82C3C70019C5A1 /* POPCGUtils.mm */; };
+		FB1546231D82C3C70019C5A1 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1546011D82C3C70019C5A1 /* POPCustomAnimation.mm */; };
+		FB1546241D82C3C70019C5A1 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1546031D82C3C70019C5A1 /* POPDecayAnimation.mm */; };
+		FB1546251D82C3C70019C5A1 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1546071D82C3C70019C5A1 /* POPGeometry.mm */; };
+		FB1546261D82C3C70019C5A1 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1546091D82C3C70019C5A1 /* POPLayerExtras.mm */; };
+		FB1546271D82C3C70019C5A1 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB15460B1D82C3C70019C5A1 /* POPMath.mm */; };
+		FB1546281D82C3C70019C5A1 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB15460D1D82C3C70019C5A1 /* POPPropertyAnimation.mm */; };
+		FB1546291D82C3C70019C5A1 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1546101D82C3C70019C5A1 /* POPSpringAnimation.mm */; };
+		FB15462A1D82C3C70019C5A1 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB1546141D82C3C70019C5A1 /* POPVector.mm */; };
+		FB15462B1D82C3C70019C5A1 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB1546171D82C3C70019C5A1 /* TransformationMatrix.cpp */; };
+		FB15462F1D82C3E40019C5A1 /* LYTtarBTN.m in Sources */ = {isa = PBXBuildFile; fileRef = FB15462E1D82C3E40019C5A1 /* LYTtarBTN.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9642BCA11B43C8A3003DC4EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9642BC7F1B43C8A3003DC4EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9642BC861B43C8A3003DC4EE;
+			remoteInfo = "2015-07-01-ColorfulTabBarAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9642BC871B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2015-07-01-ColorfulTabBarAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642BC8B1B43C8A3003DC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9642BC8C1B43C8A3003DC4EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9642BC8E1B43C8A3003DC4EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9642BC8F1B43C8A3003DC4EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9642BC911B43C8A3003DC4EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9642BC921B43C8A3003DC4EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9642BC951B43C8A3003DC4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9642BC971B43C8A3003DC4EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9642BC9A1B43C8A3003DC4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9642BCA01B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2015-07-01-ColorfulTabBarAnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642BCA51B43C8A3003DC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9642BCA61B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _015_07_01_ColorfulTabBarAnimationTests.m; sourceTree = "<group>"; };
+		968EDDAE1BDE520C00CA74F1 /* UIColor+STColorInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STColorInit.h"; sourceTree = "<group>"; };
+		968EDDAF1BDE520C00CA74F1 /* UIColor+STColorInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STColorInit.m"; sourceTree = "<group>"; };
+		969FCCA61B45049200D2913A /* TColorfulTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TColorfulTabBar.h; sourceTree = "<group>"; };
+		969FCCA71B45049200D2913A /* TColorfulTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TColorfulTabBar.m; sourceTree = "<group>"; };
+		969FCCA91B4504A500D2913A /* TColorfulTabBar+Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TColorfulTabBar+Configuration.h"; sourceTree = "<group>"; };
+		969FCCAA1B4504A500D2913A /* TColorfulTabBar+Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TColorfulTabBar+Configuration.m"; sourceTree = "<group>"; };
+		FB1545E61D82C3C70019C5A1 /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		FB1545E71D82C3C70019C5A1 /* POPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		FB1545E81D82C3C70019C5A1 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		FB1545E91D82C3C70019C5A1 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		FB1545EA1D82C3C70019C5A1 /* POPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		FB1545EB1D82C3C70019C5A1 /* POPAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		FB1545EC1D82C3C70019C5A1 /* POPAnimationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		FB1545ED1D82C3C70019C5A1 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		FB1545EE1D82C3C70019C5A1 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		FB1545EF1D82C3C70019C5A1 /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		FB1545F01D82C3C70019C5A1 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		FB1545F11D82C3C70019C5A1 /* POPAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		FB1545F21D82C3C70019C5A1 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		FB1545F31D82C3C70019C5A1 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		FB1545F41D82C3C70019C5A1 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		FB1545F51D82C3C70019C5A1 /* POPAnimationTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		FB1545F61D82C3C70019C5A1 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		FB1545F71D82C3C70019C5A1 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		FB1545F81D82C3C70019C5A1 /* POPAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		FB1545F91D82C3C70019C5A1 /* POPAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		FB1545FA1D82C3C70019C5A1 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		FB1545FB1D82C3C70019C5A1 /* POPBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		FB1545FC1D82C3C70019C5A1 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		FB1545FD1D82C3C70019C5A1 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		FB1545FE1D82C3C70019C5A1 /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		FB1545FF1D82C3C70019C5A1 /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		FB1546001D82C3C70019C5A1 /* POPCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		FB1546011D82C3C70019C5A1 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		FB1546021D82C3C70019C5A1 /* POPDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		FB1546031D82C3C70019C5A1 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		FB1546041D82C3C70019C5A1 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		FB1546051D82C3C70019C5A1 /* POPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		FB1546061D82C3C70019C5A1 /* POPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		FB1546071D82C3C70019C5A1 /* POPGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		FB1546081D82C3C70019C5A1 /* POPLayerExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		FB1546091D82C3C70019C5A1 /* POPLayerExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		FB15460A1D82C3C70019C5A1 /* POPMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		FB15460B1D82C3C70019C5A1 /* POPMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		FB15460C1D82C3C70019C5A1 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		FB15460D1D82C3C70019C5A1 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		FB15460E1D82C3C70019C5A1 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		FB15460F1D82C3C70019C5A1 /* POPSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		FB1546101D82C3C70019C5A1 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		FB1546111D82C3C70019C5A1 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		FB1546121D82C3C70019C5A1 /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		FB1546131D82C3C70019C5A1 /* POPVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		FB1546141D82C3C70019C5A1 /* POPVector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		FB1546161D82C3C70019C5A1 /* FloatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		FB1546171D82C3C70019C5A1 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
+		FB1546181D82C3C70019C5A1 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		FB1546191D82C3C70019C5A1 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		FB15462D1D82C3E40019C5A1 /* LYTtarBTN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTtarBTN.h; sourceTree = "<group>"; };
+		FB15462E1D82C3E40019C5A1 /* LYTtarBTN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTtarBTN.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9642BC841B43C8A3003DC4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642BC9D1B43C8A3003DC4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332244E831DA4BA4139D49E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9642BC7E1B43C8A3003DC4EE = {
+			isa = PBXGroup;
+			children = (
+				9642BC891B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation */,
+				9642BCA31B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests */,
+				9642BC881B43C8A3003DC4EE /* Products */,
+				332244E831DA4BA4139D49E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9642BC881B43C8A3003DC4EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9642BC871B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation.app */,
+				9642BCA01B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9642BC891B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9642BC8E1B43C8A3003DC4EE /* AppDelegate.h */,
+				9642BC8F1B43C8A3003DC4EE /* AppDelegate.m */,
+				9642BC911B43C8A3003DC4EE /* ViewController.h */,
+				9642BC921B43C8A3003DC4EE /* ViewController.m */,
+				969FCCA51B45049200D2913A /* TColorfulTabBar */,
+				9642BC941B43C8A3003DC4EE /* Main.storyboard */,
+				9642BC971B43C8A3003DC4EE /* Images.xcassets */,
+				9642BC991B43C8A3003DC4EE /* LaunchScreen.xib */,
+				9642BC8A1B43C8A3003DC4EE /* Supporting Files */,
+			);
+			path = "2015-07-01-ColorfulTabBarAnimation";
+			sourceTree = "<group>";
+		};
+		9642BC8A1B43C8A3003DC4EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9642BC8B1B43C8A3003DC4EE /* Info.plist */,
+				9642BC8C1B43C8A3003DC4EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9642BCA31B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9642BCA61B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m */,
+				9642BCA41B43C8A3003DC4EE /* Supporting Files */,
+			);
+			path = "2015-07-01-ColorfulTabBarAnimationTests";
+			sourceTree = "<group>";
+		};
+		9642BCA41B43C8A3003DC4EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9642BCA51B43C8A3003DC4EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		969FCCA51B45049200D2913A /* TColorfulTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FB1545E41D82C3AE0019C5A1 /* pop */,
+				969FCCA61B45049200D2913A /* TColorfulTabBar.h */,
+				969FCCA71B45049200D2913A /* TColorfulTabBar.m */,
+				969FCCA91B4504A500D2913A /* TColorfulTabBar+Configuration.h */,
+				969FCCAA1B4504A500D2913A /* TColorfulTabBar+Configuration.m */,
+				968EDDAE1BDE520C00CA74F1 /* UIColor+STColorInit.h */,
+				968EDDAF1BDE520C00CA74F1 /* UIColor+STColorInit.m */,
+			);
+			path = TColorfulTabBar;
+			sourceTree = "<group>";
+		};
+		FB1545E41D82C3AE0019C5A1 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				FB15462C1D82C3E40019C5A1 /* view */,
+				FB1545E51D82C3C70019C5A1 /* pop */,
+			);
+			name = pop;
+			sourceTree = "<group>";
+		};
+		FB1545E51D82C3C70019C5A1 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				FB1545E61D82C3C70019C5A1 /* POP.h */,
+				FB1545E71D82C3C70019C5A1 /* POPAction.h */,
+				FB1545E81D82C3C70019C5A1 /* POPAnimatableProperty.h */,
+				FB1545E91D82C3C70019C5A1 /* POPAnimatableProperty.mm */,
+				FB1545EA1D82C3C70019C5A1 /* POPAnimation.h */,
+				FB1545EB1D82C3C70019C5A1 /* POPAnimation.mm */,
+				FB1545EC1D82C3C70019C5A1 /* POPAnimationEvent.h */,
+				FB1545ED1D82C3C70019C5A1 /* POPAnimationEvent.mm */,
+				FB1545EE1D82C3C70019C5A1 /* POPAnimationEventInternal.h */,
+				FB1545EF1D82C3C70019C5A1 /* POPAnimationExtras.h */,
+				FB1545F01D82C3C70019C5A1 /* POPAnimationExtras.mm */,
+				FB1545F11D82C3C70019C5A1 /* POPAnimationInternal.h */,
+				FB1545F21D82C3C70019C5A1 /* POPAnimationPrivate.h */,
+				FB1545F31D82C3C70019C5A1 /* POPAnimationRuntime.h */,
+				FB1545F41D82C3C70019C5A1 /* POPAnimationRuntime.mm */,
+				FB1545F51D82C3C70019C5A1 /* POPAnimationTracer.h */,
+				FB1545F61D82C3C70019C5A1 /* POPAnimationTracer.mm */,
+				FB1545F71D82C3C70019C5A1 /* POPAnimationTracerInternal.h */,
+				FB1545F81D82C3C70019C5A1 /* POPAnimator.h */,
+				FB1545F91D82C3C70019C5A1 /* POPAnimator.mm */,
+				FB1545FA1D82C3C70019C5A1 /* POPAnimatorPrivate.h */,
+				FB1545FB1D82C3C70019C5A1 /* POPBasicAnimation.h */,
+				FB1545FC1D82C3C70019C5A1 /* POPBasicAnimation.mm */,
+				FB1545FD1D82C3C70019C5A1 /* POPBasicAnimationInternal.h */,
+				FB1545FE1D82C3C70019C5A1 /* POPCGUtils.h */,
+				FB1545FF1D82C3C70019C5A1 /* POPCGUtils.mm */,
+				FB1546001D82C3C70019C5A1 /* POPCustomAnimation.h */,
+				FB1546011D82C3C70019C5A1 /* POPCustomAnimation.mm */,
+				FB1546021D82C3C70019C5A1 /* POPDecayAnimation.h */,
+				FB1546031D82C3C70019C5A1 /* POPDecayAnimation.mm */,
+				FB1546041D82C3C70019C5A1 /* POPDecayAnimationInternal.h */,
+				FB1546051D82C3C70019C5A1 /* POPDefines.h */,
+				FB1546061D82C3C70019C5A1 /* POPGeometry.h */,
+				FB1546071D82C3C70019C5A1 /* POPGeometry.mm */,
+				FB1546081D82C3C70019C5A1 /* POPLayerExtras.h */,
+				FB1546091D82C3C70019C5A1 /* POPLayerExtras.mm */,
+				FB15460A1D82C3C70019C5A1 /* POPMath.h */,
+				FB15460B1D82C3C70019C5A1 /* POPMath.mm */,
+				FB15460C1D82C3C70019C5A1 /* POPPropertyAnimation.h */,
+				FB15460D1D82C3C70019C5A1 /* POPPropertyAnimation.mm */,
+				FB15460E1D82C3C70019C5A1 /* POPPropertyAnimationInternal.h */,
+				FB15460F1D82C3C70019C5A1 /* POPSpringAnimation.h */,
+				FB1546101D82C3C70019C5A1 /* POPSpringAnimation.mm */,
+				FB1546111D82C3C70019C5A1 /* POPSpringAnimationInternal.h */,
+				FB1546121D82C3C70019C5A1 /* POPSpringSolver.h */,
+				FB1546131D82C3C70019C5A1 /* POPVector.h */,
+				FB1546141D82C3C70019C5A1 /* POPVector.mm */,
+				FB1546151D82C3C70019C5A1 /* WebCore */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		FB1546151D82C3C70019C5A1 /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				FB1546161D82C3C70019C5A1 /* FloatConversion.h */,
+				FB1546171D82C3C70019C5A1 /* TransformationMatrix.cpp */,
+				FB1546181D82C3C70019C5A1 /* TransformationMatrix.h */,
+				FB1546191D82C3C70019C5A1 /* UnitBezier.h */,
+			);
+			path = WebCore;
+			sourceTree = "<group>";
+		};
+		FB15462C1D82C3E40019C5A1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB15462D1D82C3E40019C5A1 /* LYTtarBTN.h */,
+				FB15462E1D82C3E40019C5A1 /* LYTtarBTN.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9642BC861B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9642BCAA1B43C8A3003DC4EE /* Build configuration list for PBXNativeTarget "2015-07-01-ColorfulTabBarAnimation" */;
+			buildPhases = (
+				9642BC831B43C8A3003DC4EE /* Sources */,
+				9642BC841B43C8A3003DC4EE /* Frameworks */,
+				9642BC851B43C8A3003DC4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2015-07-01-ColorfulTabBarAnimation";
+			productName = "2015-07-01-ColorfulTabBarAnimation";
+			productReference = 9642BC871B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9642BC9F1B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9642BCAD1B43C8A3003DC4EE /* Build configuration list for PBXNativeTarget "2015-07-01-ColorfulTabBarAnimationTests" */;
+			buildPhases = (
+				9642BC9C1B43C8A3003DC4EE /* Sources */,
+				9642BC9D1B43C8A3003DC4EE /* Frameworks */,
+				9642BC9E1B43C8A3003DC4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9642BCA21B43C8A3003DC4EE /* PBXTargetDependency */,
+			);
+			name = "2015-07-01-ColorfulTabBarAnimationTests";
+			productName = "2015-07-01-ColorfulTabBarAnimationTests";
+			productReference = 9642BCA01B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9642BC7F1B43C8A3003DC4EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = tangjr;
+				TargetAttributes = {
+					9642BC861B43C8A3003DC4EE = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8EGJFWVPRL;
+					};
+					9642BC9F1B43C8A3003DC4EE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9642BC861B43C8A3003DC4EE;
+					};
+				};
+			};
+			buildConfigurationList = 9642BC821B43C8A3003DC4EE /* Build configuration list for PBXProject "2015-07-01-ColorfulTabBarAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9642BC7E1B43C8A3003DC4EE;
+			productRefGroup = 9642BC881B43C8A3003DC4EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9642BC861B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation */,
+				9642BC9F1B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9642BC851B43C8A3003DC4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642BC961B43C8A3003DC4EE /* Main.storyboard in Resources */,
+				9642BC9B1B43C8A3003DC4EE /* LaunchScreen.xib in Resources */,
+				9642BC981B43C8A3003DC4EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642BC9E1B43C8A3003DC4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9642BC831B43C8A3003DC4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB15462F1D82C3E40019C5A1 /* LYTtarBTN.m in Sources */,
+				968EDDB01BDE520C00CA74F1 /* UIColor+STColorInit.m in Sources */,
+				FB15461E1D82C3C70019C5A1 /* POPAnimationRuntime.mm in Sources */,
+				FB15461D1D82C3C70019C5A1 /* POPAnimationExtras.mm in Sources */,
+				FB15461A1D82C3C70019C5A1 /* POPAnimatableProperty.mm in Sources */,
+				FB1546241D82C3C70019C5A1 /* POPDecayAnimation.mm in Sources */,
+				FB1546281D82C3C70019C5A1 /* POPPropertyAnimation.mm in Sources */,
+				FB1546251D82C3C70019C5A1 /* POPGeometry.mm in Sources */,
+				969FCCA81B45049200D2913A /* TColorfulTabBar.m in Sources */,
+				FB1546221D82C3C70019C5A1 /* POPCGUtils.mm in Sources */,
+				FB1546201D82C3C70019C5A1 /* POPAnimator.mm in Sources */,
+				FB1546231D82C3C70019C5A1 /* POPCustomAnimation.mm in Sources */,
+				9642BC931B43C8A3003DC4EE /* ViewController.m in Sources */,
+				FB15462A1D82C3C70019C5A1 /* POPVector.mm in Sources */,
+				FB15462B1D82C3C70019C5A1 /* TransformationMatrix.cpp in Sources */,
+				9642BC901B43C8A3003DC4EE /* AppDelegate.m in Sources */,
+				FB1546291D82C3C70019C5A1 /* POPSpringAnimation.mm in Sources */,
+				969FCCAB1B4504A500D2913A /* TColorfulTabBar+Configuration.m in Sources */,
+				FB1546211D82C3C70019C5A1 /* POPBasicAnimation.mm in Sources */,
+				FB15461C1D82C3C70019C5A1 /* POPAnimationEvent.mm in Sources */,
+				FB1546271D82C3C70019C5A1 /* POPMath.mm in Sources */,
+				FB15461F1D82C3C70019C5A1 /* POPAnimationTracer.mm in Sources */,
+				FB1546261D82C3C70019C5A1 /* POPLayerExtras.mm in Sources */,
+				FB15461B1D82C3C70019C5A1 /* POPAnimation.mm in Sources */,
+				9642BC8D1B43C8A3003DC4EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642BC9C1B43C8A3003DC4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642BCA71B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9642BCA21B43C8A3003DC4EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9642BC861B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation */;
+			targetProxy = 9642BCA11B43C8A3003DC4EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9642BC941B43C8A3003DC4EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9642BC951B43C8A3003DC4EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9642BC991B43C8A3003DC4EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9642BC9A1B43C8A3003DC4EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9642BCA81B43C8A3003DC4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9642BCA91B43C8A3003DC4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9642BCAB1B43C8A3003DC4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.colorfulTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9642BCAC1B43C8A3003DC4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.colorfulTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9642BCAE1B43C8A3003DC4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2015-07-01-ColorfulTabBarAnimation.app/2015-07-01-ColorfulTabBarAnimation";
+			};
+			name = Debug;
+		};
+		9642BCAF1B43C8A3003DC4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2015-07-01-ColorfulTabBarAnimation.app/2015-07-01-ColorfulTabBarAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9642BC821B43C8A3003DC4EE /* Build configuration list for PBXProject "2015-07-01-ColorfulTabBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642BCA81B43C8A3003DC4EE /* Debug */,
+				9642BCA91B43C8A3003DC4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9642BCAA1B43C8A3003DC4EE /* Build configuration list for PBXNativeTarget "2015-07-01-ColorfulTabBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642BCAB1B43C8A3003DC4EE /* Debug */,
+				9642BCAC1B43C8A3003DC4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9642BCAD1B43C8A3003DC4EE /* Build configuration list for PBXNativeTarget "2015-07-01-ColorfulTabBarAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642BCAE1B43C8A3003DC4EE /* Debug */,
+				9642BCAF1B43C8A3003DC4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9642BC7F1B43C8A3003DC4EE /* Project object */;
+}
